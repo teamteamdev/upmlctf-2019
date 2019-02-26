@@ -1,0 +1,11 @@
+category: network
+points:   100
+name:     Послание сисадмина
+author:   nsychev
+description: >
+    <p>Сисадмин Банка решил отправить послание всем своим коллегам и оставить пасхалочку
+    для будущих кандидатов на работу. А вам слабо найти?</p>
+requires: (start)
+flags:
+    - "uctf_digg3r_3xp3rt_or_n0t"
+

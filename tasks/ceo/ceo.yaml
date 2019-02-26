@@ -1,0 +1,14 @@
+category: recon
+points:   150
+name:     CEO
+author:   nsychev
+description: >
+    <p>Чтобы получить 150 баллов, нужно всего лишь... (открыть профиль Президента Банка в Telegram)</p>
+requires: (inbox)
+flags:
+    - "uctf_i_kn0w_the_staff"
+hints:
+    -
+        name: hint
+        points: 75
+        text: Надо рыть не в интернете, надо рыть внутри

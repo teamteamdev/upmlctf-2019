@@ -1,0 +1,23 @@
+category: network
+points:   200
+name:     Сисадмин
+author:   kalan
+description: >
+    <p>У сисадмина странный компьютер, на котором висит странный сервис.</p>
+requires: (ssl)
+flags:
+    - "uctf_ignorance_is_bliss"
+hints:
+    -
+        name:   host
+        points: 50
+        text:   Локальная сеть небольшая, неужели ты ещё не нашел?
+    -
+        name:   service
+        points: 60
+        text:   Сервис позволяет получать удаленный доступ к компьютеру
+    -
+        name:   flag
+        points: 60
+        text:   Сисадмин видит флаг только когда сидит на рабочем месте
+

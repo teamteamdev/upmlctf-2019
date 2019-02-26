@@ -1,0 +1,17 @@
+category: recon
+points:   200
+name:     Глубина
+author:   nsychev
+description: >
+    <p>Кажется, кто-то слишком много постит в свой инстаграм..</p>
+urls:
+    - "https://instagram.com/invaluable_sunshine"
+requires: (start)
+flags:
+    - "uctf_instanda"
+hints:
+    -
+        name:   hint
+        points: 90
+        text:   Как вы думаете, чем Роберт занимается в банке?
+

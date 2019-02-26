@@ -1,0 +1,20 @@
+category: web
+points:   100
+name:     Исходные коды
+author:   nsychev
+description: >
+    <p>Похоже, при тестировании бота кто-то забыл защитить исходники своего творения...</p>
+    <p>Скорее доставай, пока не удалили!</p>
+requires: (dns)
+flags:
+    - "uctf_very_common_git_task"
+hints:
+    -
+        name:   hint1
+        points: 15
+        text:   Ты нашел, где лежит бот?
+    -
+        name:   hint2
+        points: 50
+        text:   Исходники лежат на этом же хосте
+

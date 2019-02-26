@@ -1,0 +1,17 @@
+category: web
+points:   250
+name:     Hidden backdoor
+author:   nsychev
+description: >
+    <p>В одном из продуктов Банка обнаружена серьёзная уязвимость! 
+    Под угрозой — вся корпоративная сеть.</p>
+    <p>Вопрос лишь в том, случайная ли это ошибка или преднамеренный бэкдор?</p>
+flags:
+    - "uctf_we_should_go_deeper"
+requires: (codeserver) and (naive)
+hints:
+    -
+        name:   hint
+        points: 70
+        text:   Сотрудник Банка на условиях анонимности сообщил, что уязвимость находится в модуле CRM
+

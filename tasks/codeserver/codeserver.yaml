@@ -1,0 +1,10 @@
+category: misc
+points:   100
+name:     Сервер исходных кодов
+author:   nsychev
+description: >
+    <p>Видимо, теперь у тебя есть доступ и к другим проектам горе-разработчиков Банка :(((</p>
+requires: (code)
+flags:
+    - "uctf_remote_origin_located"
+

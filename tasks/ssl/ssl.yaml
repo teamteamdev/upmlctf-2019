@@ -1,0 +1,10 @@
+category: stegano
+points:   100
+name:     SSL Secrets
+author:   nsychev
+description: >
+    <p>На файлообменнике Банка Банка что-то интересное... Что же скрывают в себе ключи шифрования?</p>
+requires: (skype)
+flags:
+    - "uctf_st3g4_in_certs"
+

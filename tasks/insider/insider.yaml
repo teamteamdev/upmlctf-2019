@@ -1,0 +1,11 @@
+category: recon
+points:   50
+name:     Staff only
+author:   nsychev
+description: >
+    <p>Вы уже нашли портал сотрудников банка?</p>
+    <p>Всё ли на портале сотрудников доступно только сотрудникам?</p>
+requires: (tos)
+flags:
+    - "uctfitwasfakecryptotask0"
+

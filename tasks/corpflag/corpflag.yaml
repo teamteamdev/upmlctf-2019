@@ -1,0 +1,11 @@
+category: telegram
+points:   400
+name:     Обман системы
+author:   nsychev
+description: >
+    <p>Бот умеет выдавать корпоративные флаги методом <code>/flag</code>. Но, раз мы не
+    работаем в банке, то и флаг нам не получить... Или получить?</p>
+requires: (dns) and (inbox)
+flags:
+    - "uctf_webhookwebhook_exposed"
+

@@ -1,0 +1,10 @@
+category: network
+points:   150
+name:     Where am I?
+author:   nsychev
+description: >
+    <p>Для таких же новичков в банкостроении, как вы, в локалке открыли портал для сотрудников. Есть ли там что-то интересное?</p>
+requires: (ssl)
+flags:
+    - "uctf_mamkiny_hackers"
+

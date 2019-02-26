@@ -1,0 +1,11 @@
+category: recon
+points:   100
+name:     Парольный менеджер
+author:   nsychev
+description: >
+    <p>А знаете ли вы, что в стандартной поставке Windows XP идет лучший в мире парольный
+    менеджер?</p>
+requires: (wallpaper)
+flags:
+    - "uctf_world_is_so_unsecure"
+

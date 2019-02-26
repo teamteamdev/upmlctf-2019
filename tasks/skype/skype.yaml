@@ -1,0 +1,10 @@
+category: recon
+points:   50
+name:     Скайп
+author:   nsychev
+description: >
+    <p>А каким файлообменником ты пользуешься?</p>
+requires: (start)
+flags:
+    - "uctf_boring_nude_flag"
+

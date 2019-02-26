@@ -1,0 +1,11 @@
+category: telegram
+points:   200
+name:     Ограбление 2.0
+author:   javach
+description: >
+    <p><i>Телеграм-бот — дыра в безопасности. (Пословица)</i></p>
+    <p>Сможете ли вы это доказать <b>ещё раз</b>?</p>
+requires: (wait)
+flags:
+    - "uctf_v1_ne_podojdal1"
+
