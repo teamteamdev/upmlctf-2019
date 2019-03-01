@@ -1,0 +1,12 @@
+[Unit]
+Description=djbdns tcp6
+After=network-online.target
+
+[Service]
+Type=simple
+Restart=always
+ExecStart=/usr/bin/env socat TCP6-LISTEN:53,fork,reuseaddr TCP:10.239.0.1:53
+
+[Install]
+WantedBy=multi-user.target
+

@@ -1,0 +1,1 @@
+V	290220163725Z		01	unknown	/C=RU/ST=74/L=Paris/O=FC Bank Bank Credit Systems PJSC/CN=server/name=server/emailAddress=hostmaster@bankbank.tech

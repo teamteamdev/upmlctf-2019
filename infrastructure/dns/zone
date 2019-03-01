@@ -1,0 +1,42 @@
+Zbankbank.exposed:ns1.bankbank.exposed:hostmaster.bankbank.exposed::600:300:::::
+&bankbank.exposed::ns1.bankbank.exposed:1200::
+&bankbank.exposed::ns2.bankbank.exposed:1200::
+
++bankbank.exposed:95.179.139.209:300
++www.bankbank.exposed:95.179.139.209:300
++jobs.bankbank.exposed:95.179.139.209:300
++qr.bankbank.exposed:95.179.139.209:300
++random.bankbank.exposed:95.179.139.209:300
++store.bankbank.exposed:95.179.139.209:300
++litsec.bankbank.exposed:95.179.139.209:300
++earn.bankbank.exposed:95.179.139.209:300
+
++ns1.bankbank.exposed:95.179.139.209:300
++ns2.bankbank.exposed:95.179.139.209:300
+
++botapi.bankbank.exposed:95.179.139.209:300
+
+@bankbank.exposed::mx.yandex.net:10:300
+'bankbank.exposed:yandex-verification\072 70ddd42d9c7067ef:300
+'bankbank.exposed:v=spf1 redirect=_spf.yandex.net ~all:300
+'mail._domainkey.bankbank.exposed:v=DKIM1; k=rsa; t=s; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDUwGoNveBrd82bnyKs9Nk8z1p7sqiMVfRNhZCQWAq79a0VIibyBft4Pz7SAqFmsNvs7TNgZ6kCfYp88ZPFbkntUP8YS9rvuPSMPZTZhQk97vZUfnKklRFZqIFk6UfgzxzwuEx1A9PNUXwUdNXkzpDVKY422B5Ioxqun0jGzLR9MwIDAQAB:300
+
+'bankbank.exposed:uctf_digg3r_3xp3rt_or_n0t:300
+'totallysecret-64354262612.bankbank.exposed:uctf_r341_digg3r_3xp3rt:300
+
+Zbankbank.tech:ns1.bankbank.exposed:hostmaster.bankbank.tech::600:300:::::
+&bankbank.tech::ns1.bankbank.exposed:1200::
+&bankbank.tech::ns2.bankbank.exposed:1200::
+
++bankbank.tech:95.179.139.209:300
++www.bankbank.tech:95.179.139.209:300
++crm.bankbank.tech:95.179.139.209:300
++ftp.bankbank.tech:95.179.139.209:300
+
+Zxn----btbhzcd2bu.xn--p1ai:ns1.bankbank.exposed:hostmaster.xn----btbhzcd2bu.xn--p1ai::600:300:::::
+&xn----btbhzcd2bu.xn--p1ai::ns1.bankbank.exposed:1200::
+&xn----btbhzcd2bu.xn--p1ai::ns2.bankbank.exposed:1200::
+
++xn----btbhzcd2bu.xn--p1ai:95.179.139.209:300
++www.xn----btbhzcd2bu.xn--p1ai:95.179.139.209:300
+

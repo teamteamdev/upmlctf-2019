@@ -30,18 +30,7 @@
 
 ## Инфраструктура
 
-Вся инфраструктура банка размещена в `infrastructure/`
-
-* [bankbank.exposed](infrastructure/landing/) — лендинг банка
-* [ns1.bankbank.exposed](infrastructure/dns/) — конфигурация DNS-сервера
-* [botapi.bankbank.exposed](infrastructure/bot/) — Telegram-бот
-* [crm.bankbank.tech](infrastructure/crm/) — CRM
-* [ftp.bankbank.tech](infrastructure/ftp/) — FTP-сервер
-* [vpn.bankbank.tech](infrastructure/vpn/) — VPN-сервер
-* [192.168.24.147](infrastructure/dummy/) — веб-сервер во внутрянке
-* [192.168.24.226](infrastructure/win/) — Windows XP host
-* [connect.yandex.ru](infrastructure/staff/) — Яндекс.Коннект
-* [лсд-клуб.рф](insfrastructure/phpbb/) — форум «Литное собрание должников»
+Вся [инфраструктура банка](infrastructure/) размещена в `infrastructure/`
 
 ## Команда соревнования
 

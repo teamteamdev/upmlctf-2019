@@ -1,0 +1,4 @@
+__pycache__/
+flag.txt
+flask_session/
+generate.py

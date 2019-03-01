@@ -1,0 +1,11 @@
+[Unit]
+Description=djbdns udp
+After=network-online.target
+
+[Service]
+Type=simple
+Restart=always
+ExecStart=/usr/bin/env socat -T 1 UDP6-LISTEN:53,fork,reuseaddr UDP:10.239.0.1:53
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,210 @@
+remote bankbank.tech 23194
+proto udp
+dev tun
+
+keepalive 10 120
+
+key-direction 1
+
+cipher AES-128-CBC   # AES
+auth SHA256
+comp-lzo
+
+user nobody
+group nogroup
+
+persist-key
+persist-tun
+
+verb 3
+mute 20
+<ca>
+-----BEGIN CERTIFICATE-----
+MIIFmTCCBIGgAwIBAgIJAN6zmAMAElbBMA0GCSqGSIb3DQEBCwUAMIHiMQswCQYD
+VQQGEwJSVTELMAkGA1UECBMCNzQxDjAMBgNVBAcTBVBhcmlzMSkwJwYDVQQKEyBG
+QyBCYW5rIEJhbmsgQ3JlZGl0IFN5c3RlbXMgUEpTQzEjMCEGA1UECxMaZFdOMFps
+OXpkRE5uTkY5cGJsOWpaWEowY3cxLDAqBgNVBAMTI0ZDIEJhbmsgQmFuayBDcmVk
+aXQgU3lzdGVtcyBQSlNDIENBMQ8wDQYDVQQpEwZzZXJ2ZXIxJzAlBgkqhkiG9w0B
+CQEWGGhvc3RtYXN0ZXJAYmFua2JhbmsudGVjaDAeFw0xOTAyMjMxNjM3MTJaFw0y
+OTAyMjAxNjM3MTJaMIHiMQswCQYDVQQGEwJSVTELMAkGA1UECBMCNzQxDjAMBgNV
+BAcTBVBhcmlzMSkwJwYDVQQKEyBGQyBCYW5rIEJhbmsgQ3JlZGl0IFN5c3RlbXMg
+UEpTQzEjMCEGA1UECxMaZFdOMFpsOXpkRE5uTkY5cGJsOWpaWEowY3cxLDAqBgNV
+BAMTI0ZDIEJhbmsgQmFuayBDcmVkaXQgU3lzdGVtcyBQSlNDIENBMQ8wDQYDVQQp
+EwZzZXJ2ZXIxJzAlBgkqhkiG9w0BCQEWGGhvc3RtYXN0ZXJAYmFua2JhbmsudGVj
+aDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMc0R21r214gCv5Zfo85
+oX3rP3WbMQVjDoDlUADKXcO2G1qzUefxcRiLv/ld1e1dyak65RFS2928tg6Modqz
+W1YW5BqVBSz9412sUDWP2wPCO4MD/AoIi8fm34wMApw5xyixfrcnLrsHr1VdB9/0
+9HL0DExb8hMkPjCfsnz4MxKmFoGaaXThcqAT8NWpACT6K+JWBIwTEp4TIyINpjPG
+JGf28iP9NkC3QkiPDFvEsdQMEDU7fNGUKOWIugFOQGad7MWJdvxJmcfCL/YY0JEX
+hS532zh8wqpVtWMiLwkHpJqj/45L8+9312L4CDn31WgyaY4GJlabp4pA0JSXLI65
+OBsCAwEAAaOCAU4wggFKMB0GA1UdDgQWBBRPLnK2AYW/hjjkwEKTJ8fyxypYbjCC
+ARkGA1UdIwSCARAwggEMgBRPLnK2AYW/hjjkwEKTJ8fyxypYbqGB6KSB5TCB4jEL
+MAkGA1UEBhMCUlUxCzAJBgNVBAgTAjc0MQ4wDAYDVQQHEwVQYXJpczEpMCcGA1UE
+ChMgRkMgQmFuayBCYW5rIENyZWRpdCBTeXN0ZW1zIFBKU0MxIzAhBgNVBAsTGmRX
+TjBabDl6ZERObk5GOXBibDlqWlhKMGN3MSwwKgYDVQQDEyNGQyBCYW5rIEJhbmsg
+Q3JlZGl0IFN5c3RlbXMgUEpTQyBDQTEPMA0GA1UEKRMGc2VydmVyMScwJQYJKoZI
+hvcNAQkBFhhob3N0bWFzdGVyQGJhbmtiYW5rLnRlY2iCCQDes5gDABJWwTAMBgNV
+HRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAyg9HWpXn709tp6eUhOiGCAHU2
+Lh+hXQ5o/SHyT6jWQPK1ZdabfIRn2NUkeGOTy/i+QBWYmA32jCEiLqjcxt+D9/hm
+BXGOOsEcvhe1lJ8hJTwjWvnyTkUjaMYAk1PJ902SUzzGUYGXiJK3ha8m1jYK/tUY
+mvzr8PXj7y5pvu2OpGz5ivFrIZ3ONGfZmgbC5mDLpVL9F2lm7Dna0DD8Fa5r2Ich
+LJYK5ZUdDgK3OM0OSrwpIOkXTQ5GUPkIOWm2YqsxMpOec/NJ08SO6zxnq7gXlrYd
+BLx+B//0MTSWE7KifbWjkCYu+L0bCkUtlfITSxr2jiJ868I62bUmDfHFg6Jc
+-----END CERTIFICATE-----
+</ca>
+<cert>
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 2 (0x2)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=RU, ST=74, L=Paris, O=FC Bank Bank Credit Systems PJSC, OU=dWN0Zl9zdDNnNF9pbl9jZXJ0cw, CN=FC Bank Bank Credit Systems PJSC CA/name=server/emailAddress=hostmaster@bankbank.tech
+        Validity
+            Not Before: Feb 23 18:05:10 2019 GMT
+            Not After : Feb 20 18:05:10 2029 GMT
+        Subject: C=RU, ST=74, L=Paris, O=FC Bank Bank Credit Systems PJSC, OU=dWN0Zl9zdDNnNF9pbl9jZXJ0cw, CN=client1/name=server/emailAddress=hostmaster@bankbank.tech
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:d0:3e:d7:fe:45:c2:00:1d:c9:be:28:7e:be:41:
+                    08:8c:37:8d:5f:4a:5e:a8:fb:81:aa:63:39:02:bb:
+                    2b:10:b0:f3:fd:97:4d:fb:97:76:8c:7b:69:c6:07:
+                    ec:0e:23:db:56:e0:32:ea:70:e0:5f:d8:1e:f0:ed:
+                    60:fa:54:7e:c1:f4:0d:9d:fd:d8:fe:55:c9:09:c9:
+                    b9:36:9b:83:c7:2c:8d:bd:55:67:c5:b4:08:8d:df:
+                    1f:b0:64:ef:6e:10:13:fd:fa:92:02:74:41:04:f7:
+                    12:90:04:0a:8a:a2:ad:a1:4b:1a:33:4d:87:dd:45:
+                    31:05:b4:3f:03:72:15:b9:35:c7:ab:99:a1:7f:6f:
+                    68:51:91:85:9d:de:ae:5c:53:d8:dc:16:be:58:8c:
+                    58:81:be:47:25:45:d8:25:a2:8f:0c:57:99:16:55:
+                    10:0e:e4:e8:9d:e8:e6:f5:77:a5:c5:6b:5f:db:de:
+                    ef:e9:42:c9:95:ed:60:c4:a0:e2:5a:ac:0f:57:ee:
+                    6c:ac:98:ec:37:90:39:31:76:04:21:9d:cc:6f:58:
+                    6a:e1:68:b2:9c:8e:87:fc:c6:cc:70:15:da:62:42:
+                    ab:a8:fd:13:ce:dc:a9:62:d9:77:05:72:f4:c8:04:
+                    50:10:f9:8c:73:90:9e:47:64:78:e4:63:55:f2:41:
+                    1f:cf
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Comment: 
+                Easy-RSA Generated Certificate
+            X509v3 Subject Key Identifier: 
+                B5:A8:C0:36:C8:78:DD:53:2B:4C:09:2C:A7:AA:95:48:E9:F2:01:3E
+            X509v3 Authority Key Identifier: 
+                keyid:4F:2E:72:B6:01:85:BF:86:38:E4:C0:42:93:27:C7:F2:C7:2A:58:6E
+                DirName:/C=RU/ST=74/L=Paris/O=FC Bank Bank Credit Systems PJSC/OU=dWN0Zl9zdDNnNF9pbl9jZXJ0cw/CN=FC Bank Bank Credit Systems PJSC CA/name=server/emailAddress=hostmaster@bankbank.tech
+                serial:DE:B3:98:03:00:12:56:C1
+
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            X509v3 Key Usage: 
+                Digital Signature
+            X509v3 Subject Alternative Name: 
+                DNS:client1
+    Signature Algorithm: sha256WithRSAEncryption
+         12:63:20:e7:ac:27:e0:dc:ec:4d:d2:bc:d9:a2:84:e6:67:18:
+         3f:62:89:57:45:c3:dc:c8:a2:b5:3c:9f:48:2c:da:d0:65:b1:
+         01:1b:7b:f9:a6:51:59:72:d0:35:64:38:69:c9:56:57:ed:9f:
+         71:d6:23:62:a9:13:a9:1d:f3:1f:ad:96:0c:79:1d:36:d7:43:
+         4e:de:60:33:fd:02:8d:19:e1:e3:52:3a:ef:b7:88:42:7a:c3:
+         ad:4a:3f:74:4f:78:07:ff:55:f0:99:bf:2c:1d:35:67:1b:38:
+         30:af:31:63:7a:cd:8e:70:6b:f7:1c:78:69:6e:37:b9:91:ee:
+         f1:e2:79:1f:d4:38:2c:ec:2d:18:13:e8:e3:0f:0d:67:26:54:
+         b7:7f:38:4e:82:26:e5:e7:0c:7e:8e:56:c0:1c:ba:94:04:8c:
+         49:3d:24:d3:80:3e:e5:00:5f:fb:2d:14:77:a1:ae:2b:28:2e:
+         a3:01:d8:b4:09:99:db:38:15:46:25:af:5c:82:65:0e:d7:c4:
+         1c:1a:5e:54:d7:89:59:e7:83:29:2c:1e:63:7a:99:05:4d:d2:
+         44:20:71:30:1d:49:e5:e3:d2:e9:87:a7:ca:32:40:b1:cd:ab:
+         da:35:52:54:00:58:a7:50:5c:48:98:12:93:26:88:c5:8a:57:
+         e7:93:b6:10
+-----BEGIN CERTIFICATE-----
+MIIF1zCCBL+gAwIBAgIBAjANBgkqhkiG9w0BAQsFADCB4jELMAkGA1UEBhMCUlUx
+CzAJBgNVBAgTAjc0MQ4wDAYDVQQHEwVQYXJpczEpMCcGA1UEChMgRkMgQmFuayBC
+YW5rIENyZWRpdCBTeXN0ZW1zIFBKU0MxIzAhBgNVBAsTGmRXTjBabDl6ZERObk5G
+OXBibDlqWlhKMGN3MSwwKgYDVQQDEyNGQyBCYW5rIEJhbmsgQ3JlZGl0IFN5c3Rl
+bXMgUEpTQyBDQTEPMA0GA1UEKRMGc2VydmVyMScwJQYJKoZIhvcNAQkBFhhob3N0
+bWFzdGVyQGJhbmtiYW5rLnRlY2gwHhcNMTkwMjIzMTgwNTEwWhcNMjkwMjIwMTgw
+NTEwWjCBxjELMAkGA1UEBhMCUlUxCzAJBgNVBAgTAjc0MQ4wDAYDVQQHEwVQYXJp
+czEpMCcGA1UEChMgRkMgQmFuayBCYW5rIENyZWRpdCBTeXN0ZW1zIFBKU0MxIzAh
+BgNVBAsTGmRXTjBabDl6ZERObk5GOXBibDlqWlhKMGN3MRAwDgYDVQQDEwdjbGll
+bnQxMQ8wDQYDVQQpEwZzZXJ2ZXIxJzAlBgkqhkiG9w0BCQEWGGhvc3RtYXN0ZXJA
+YmFua2JhbmsudGVjaDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANA+
+1/5FwgAdyb4ofr5BCIw3jV9KXqj7gapjOQK7KxCw8/2XTfuXdox7acYH7A4j21bg
+Mupw4F/YHvDtYPpUfsH0DZ392P5VyQnJuTabg8csjb1VZ8W0CI3fH7Bk724QE/36
+kgJ0QQT3EpAECoqiraFLGjNNh91FMQW0PwNyFbk1x6uZoX9vaFGRhZ3erlxT2NwW
+vliMWIG+RyVF2CWijwxXmRZVEA7k6J3o5vV3pcVrX9ve7+lCyZXtYMSg4lqsD1fu
+bKyY7DeQOTF2BCGdzG9YauFospyOh/zGzHAV2mJCq6j9E87cqWLZdwVy9MgEUBD5
+jHOQnkdkeORjVfJBH88CAwEAAaOCAbAwggGsMAkGA1UdEwQCMAAwLQYJYIZIAYb4
+QgENBCAWHkVhc3ktUlNBIEdlbmVyYXRlZCBDZXJ0aWZpY2F0ZTAdBgNVHQ4EFgQU
+tajANsh43VMrTAksp6qVSOnyAT4wggEZBgNVHSMEggEQMIIBDIAUTy5ytgGFv4Y4
+5MBCkyfH8scqWG6hgeikgeUwgeIxCzAJBgNVBAYTAlJVMQswCQYDVQQIEwI3NDEO
+MAwGA1UEBxMFUGFyaXMxKTAnBgNVBAoTIEZDIEJhbmsgQmFuayBDcmVkaXQgU3lz
+dGVtcyBQSlNDMSMwIQYDVQQLExpkV04wWmw5emRETm5ORjlwYmw5alpYSjBjdzEs
+MCoGA1UEAxMjRkMgQmFuayBCYW5rIENyZWRpdCBTeXN0ZW1zIFBKU0MgQ0ExDzAN
+BgNVBCkTBnNlcnZlcjEnMCUGCSqGSIb3DQEJARYYaG9zdG1hc3RlckBiYW5rYmFu
+ay50ZWNoggkA3rOYAwASVsEwEwYDVR0lBAwwCgYIKwYBBQUHAwIwCwYDVR0PBAQD
+AgeAMBIGA1UdEQQLMAmCB2NsaWVudDEwDQYJKoZIhvcNAQELBQADggEBABJjIOes
+J+Dc7E3SvNmihOZnGD9iiVdFw9zIorU8n0gs2tBlsQEbe/mmUVly0DVkOGnJVlft
+n3HWI2KpE6kd8x+tlgx5HTbXQ07eYDP9Ao0Z4eNSOu+3iEJ6w61KP3RPeAf/VfCZ
+vywdNWcbODCvMWN6zY5wa/cceGluN7mR7vHieR/UOCzsLRgT6OMPDWcmVLd/OE6C
+JuXnDH6OVsAcupQEjEk9JNOAPuUAX/stFHehrisoLqMB2LQJmds4FUYlr1yCZQ7X
+xBwaXlTXiVnngyksHmN6mQVN0kQgcTAdSeXj0umHp8oyQLHNq9o1UlQAWKdQXEiY
+EpMmiMWKV+eTthA=
+-----END CERTIFICATE-----
+</cert>
+<key>
+-----BEGIN PRIVATE KEY-----
+MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDQPtf+RcIAHcm+
+KH6+QQiMN41fSl6o+4GqYzkCuysQsPP9l037l3aMe2nGB+wOI9tW4DLqcOBf2B7w
+7WD6VH7B9A2d/dj+VckJybk2m4PHLI29VWfFtAiN3x+wZO9uEBP9+pICdEEE9xKQ
+BAqKoq2hSxozTYfdRTEFtD8DchW5NcermaF/b2hRkYWd3q5cU9jcFr5YjFiBvkcl
+Rdgloo8MV5kWVRAO5Oid6Ob1d6XFa1/b3u/pQsmV7WDEoOJarA9X7mysmOw3kDkx
+dgQhncxvWGrhaLKcjof8xsxwFdpiQquo/RPO3Kli2XcFcvTIBFAQ+YxzkJ5HZHjk
+Y1XyQR/PAgMBAAECggEAT8mkTEJCAHVpVLiDRzX3pnGqcvY1qp0iozv9HfTEnVKP
+SXxtXpY7z7uBXWSvpwNKCNFB8N1quo493KW24HL7VijCBuS5/Ui1DFED685OAUQq
+0n4kknVWSbVRmO4zZoI2hrs4skQEnXhk3lUODOwjhocV9M4h3j+idsMG2bUeaaVm
+SMf2tzvm9JhF48tp9BHo7DHG95eIMmp3qbfaqciaW4fmFkuKArIyDqqzVErfgH60
+0ty13FtG8NJne41MjLb4T5gqjSmMWLz2SypBy4uJLG3YtkdvOepnBBQhguYx+EV5
+lPWWzz4IZ4mIstaAuI3PYhUrw9uTvA6CA0ePkMGYYQKBgQDyB1O4uCIvAPCvZHkP
+tj1JKrMRfHRMD/P9LrjmKSfBTYLxQwiqcxTtFdfTXv25zHfDwZIEP6s4AZ8ux4B6
+2Bdx+bo035sEV602bKl9gHfdbeRNPn+pHvscNcGrX4uq74tXJT/ImjZO0kh0R+/P
+VXO0gYAVsb3LlVPDs8spB0MQmQKBgQDcREXqF3hOftHzum8K5/M8Nsu8QsY5fLZt
+kAh8cKFXAu5+c5cakevJhpdD12rQjdGlgc5pcHJng14oYqmHJ9lCItfOxvnFg5ZF
+i64dO/AI5tV3vWAZ2aRLbvvGMevyqPCGwHhbSP2gti/o5umnGTrJHQneku690dSy
+zmtpAT8spwKBgQDfoFmBEdGz8IBy7rjVBaO22Rc/jui95vef9e2t7FTpTL8yQKff
+JhotvcL/cIOrivsWCuLpvhJr20PDq15RIxz2mLGubPUEnCZVZS1t4qfeFs2deaPn
+FdMbi6f4un2IYXE0AhzfM23+glmj51vzDJeuLwG0Cdi+JKmS56tNq4IR8QKBgB6E
+dwtP5SM6/uu90NS5/kFBdkjHF5+vX7ceVY6oLDJZ/aEXcsADp59sPljv56StgXZk
+3axOIAunb8w4nzRSmQ9ItI25k7GB4bgQ+jair0cMdFb6re3m8ZRh9BApqn8cWPbS
+g9ph6oHxvAGQvJ6iKDrlAxELWniCMe30G32Y5p/RAoGAJHwD5bnrus7Bc7Zb64iH
+FyahSrMc4dWEib3tjtBpysKbTMdXPe3UoF9x9PHs20RRd9xamUv20lPk7aRw6Uy9
+9WDWSpeRPGh91BA+OHApaLIwJZkBCx/QlV4YEwTGZG0mGefJl6mn9ZaAB7Mlx9P2
+xshLvZfuImyK6O3OwFy2ZmY=
+-----END PRIVATE KEY-----
+</key>
+<tls-auth>
+#
+# 2048 bit OpenVPN static key
+#
+-----BEGIN OpenVPN Static key V1-----
+07e65eb09a304c67b1b0a8685244af35
+9027fa264f849e6406b878db05826d8b
+fb8451043eb9fdf48d206ce5bb638f65
+cbde1dba53e833ecfc14aa67a97f535c
+2de0ab7136a10a5c5b9bebb4c1c67e66
+e5ecdfa456e081deff3fbe3865029057
+b6563a7903ff958154cacc54337ab276
+018059559ad60367e821e35f1e4258da
+7a3be582c3bb88e8a063e1420d56c971
+ed1f63b41a9bc0adbccc7377b251f9bc
+887a8bc8fa9a67272d4055360bd05eec
+3ed0655fd8234fccf2691ae563c249c0
+ba34dc55a473688b1447011fce225f19
+becd7d70ae1da71e28d48a2d2184ee0c
+65f794e83516d43adce3be74204f4561
+81c51e43f97c5c244eed3b78671243a6
+-----END OpenVPN Static key V1-----
+</tls-auth>
