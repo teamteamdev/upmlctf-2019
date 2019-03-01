@@ -1,5 +1,12 @@
 # SSL Secrets: Write-up
 
-Write your write-up here
+На FTP-сервере в таске __Скайп__ находим директорию `vpn/`, в ней — выхлоп
+утилиты [easy-rsa](https://github.com/OpenVPN/easy-rsa).
+
+В поддиректории `keys/` лежат ключи центра сертификации VPN, берем и смотрим на 
+сертификат любым приложением для просмотра сертификатов — консольным OpenSSL или
+системным.
+
+В поле __Organization unit__ видим флаг.
 
 Флаг: **uctf_st3g4_in_certs**
