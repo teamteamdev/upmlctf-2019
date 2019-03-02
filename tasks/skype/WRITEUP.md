@@ -1,5 +1,7 @@
 # Скайп: Write-up
 
-Write your write-up here
+**Дано:** открытый порт 21.  
+**Решение:**  
+![ftp](images/skype.png)
 
 Флаг: **uctf_boring_nude_flag**
